@@ -1,0 +1,7 @@
+<div>
+  <h2>{{ animal.name | titlecase }}</h2>
+  <h3>Age: {{ animal.age }}</h3>
+  <h4>Type: {{ animal.type | titlecase }}</h4>
+  <h4>Fed: {{ animal.isFed }}</h4>
+  <button type="button" (click)="feedAnimal(animal)">Feed</button>
+</div>
